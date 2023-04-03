@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>16092022</title>
+        <meta charset= "UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "CSS/style.css">
+    </head>
+    <body>
+        <div class = "parent">
+            <div  id = "formToGrid">
+                <form>
+                <div class="sub-parent">
+                    <h1>← New Destination Mile Marker</h1>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">Name<span class = "red">*</span></label>
+                        <input type = "text" class = "input-area" id = "name" value="asdesfdg">
+                        <div>
+                            <span class="error" id = "nameError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">Accountability</label>
+                        <input type = "text" class = "input-area" id = "accountability" value="bhjnkkm">
+                        <div>
+                            <span class="error" id = "accountabilityError"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">License #</label>
+                        <input type = "number" class = "input-area" id = "license" value="123">
+                        <div>
+                            <span class="error" id = "licenseError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">office</label>
+                        <input type = "text" class = "input-area" id = "office" value="asdfd">
+                        <div>
+                            <span class="error" id = "officeError"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">Did you participate in Road to the Top last year?<span class = "red">*</span></label>
+                        <input type = "radio" name = "top" id = "yes" checked>
+                        <label for = "yes">Yes</label>
+                        <input type = "radio" name = "top" id = "no">
+                        <label for = "no">No</label>
+                        <input type = "radio" name = "top" id = "gg">
+                        <label for = "gg">I wasn't at Gary Greene at that time</label>
+                        <div>
+                            <span class="error" id = "topError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">Rate your office Coach(10 being the best)</label>
+                        <input type = "radio" name = "coach" id = "one" checked>
+                        <label name = "coach" for = "one">1</label>
+                        <input type = "radio" name = "coach" id = "two" >
+                        <label name = "coach" for = "two">2</label>
+                        <input type = "radio" name = "coach" id = "three">
+                        <label name = "coach" for = "three">3</label>  
+                        <input type = "radio" name = "coach" id = "four">
+                        <label name = "coach" for = "four">4</label>
+                        <input type = "radio" name = "coach" id = "five">
+                        <label name = "coach" for = "five">5</label>
+                        <input type = "radio" name = "coach" id = "six">
+                        <label name = "coach" for = "six">6</label>
+                        <input type = "radio" name = "coach" id = "seven">
+                        <label name = "coach" for = "seven">7</label>
+                        <input type = "radio" name = "coach" id = "eight">
+                        <label name = "coach" for = "eight">8</label>
+                        <input type = "radio" name = "coach" id = "nine">
+                        <label name = "coach" for = "nine">9</label>
+                        <input type = "radio" name = "coach" id = "ten">
+                        <label name = "coach" for = "ten">10</label>  
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">How did you feel about the synergy with your group?<span class =  "red">*</span></label>
+                        <textarea class = "input-area" rows="3" id = "group">hjkl</textarea>
+                        <div>
+                            <span class="error" id = "groupError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">Did the Coaching Corner content support your Road to the Top objectives?<span class =  "red">*</span></label>
+                        <textarea class = "input-area" rows="3" id = "objectives">vgyhukjkl;'</textarea>
+                        <div>
+                            <span class="error" id = "objectivesError"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">What would have improved your one-on-one coaching sessions?<span class =  "red">*</span></label>
+                        <textarea class = "input-area" rows="3" id = "sessions">asdesfdg</textarea>
+                        <div>
+                            <span class="error" id = "sessionsError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">What was your final Pipeline number in your Roadmap?<span class =  "red">*</span></label>
+                        <input type = "text" class = "input-area" id = "roadmap" value="fghbjnkmll;,">
+                        <div>
+                            <span class="error" id = "roadmapError"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">Next year we will move from an 11 week RTTT to 8 weeks. What other changes would you like to see to improve the experience?<span class =  "red">*</span></label>
+                        <textarea class = "input-area" rows="3" id = "experience">fvdcasx</textarea>
+                        <div>
+                            <span class="error" id = "experienceError"></span>
+                        </div>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">Do you have a success story from implementing something you learned during RTTT?</label>
+                        <input type = "text" class = "input-area" id = story value="asergthyju">
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">What is your biggest takeaway from this year's RTTT? Biggest 'a-ha' moment?</label>
+                        <textarea class = "input-area" rows="3" id = "takeaway">sdsfghjm</textarea>
+                    </div>
+                    <div class = "child-container">
+                        <label class = "label">Anything else you would like to add?</label>
+                        <textarea class = "input-area" rows="3" id = "add">defrgfhk</textarea>
+                    </div>
+                </div>
+                <div class = "sub-parent">
+                    <div class = "child-container">
+                        <label class = "label">What are you committed to for the remainder of 2022?</label>
+                        <input type = "text" class = "input-area" id = "committed" value="sdafghgj">
+                    </div>
+                </div>
+                
+                </form>
+                <div class = "button-area">
+                    <a href = "#" type="button" class = "cancel-button" onclick="showGrid()">Cancel</a>
+                    <button class = "submit-button" onclick = "submitForm()" id = "submitbtn">Submit</button>                    
+                </div>
+            </div>
+            <div class = "table" style="display: none;" id="gridToForm">
+                <button class = "add-button" onclick = "addDestinate()">ADD</button>
+                <table class = "tabled">
+                    <thead>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Accountability</th>
+                        <th>License</th>
+                        <th>Office</th>
+                        <th>Road to the top</th>
+                        <th>Office coach rating</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody id = tableBody></tbody>
+                </table>
+            </div>
+            <iframe src="https://dev148191.service-now.com/sp?id=sc_cat_item&sys_id=4aef8743473de110ee07d921236d4399" height="1000px" width="900px" />
+        </div>
+        <script type = "text/javascript" src = "JS/script.js"></script>
+    </body>
+</html>
