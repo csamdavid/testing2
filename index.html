@@ -169,12 +169,10 @@
         </div>
         <script type = "text/javascript" src = "JS/script.js">
           <script>  
-        var dataFrame = window.data;
-
-        // when the frame has loaded then call getData()
-      dataFrame.onload = function () {
-        var myData = dataFrame.captcha();
-          // do something with myData..
+       window.addEventListener('DOMContentLoaded', () => {
+        top.document.getElementById("hibutton").addEventListener("click", document.getElementById("resultFrame").contentWindow.captcha);
+    
+    })
          }
         </script>
         
