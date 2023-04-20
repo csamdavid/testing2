@@ -3,3 +3,11 @@
     float:left;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+nav.navbar-inverse.navbar {
+    display: none;
+}
+
+.ng-scope.breadcrumbs-container {
+    display: none;
+}
